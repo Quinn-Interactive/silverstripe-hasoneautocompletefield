@@ -1,26 +1,24 @@
 {
-	"name": "nathancox/hasoneautocompletefield",
-	"description": "A CMS form field for adding has_one relationships using autocomplete",
-	"homepage": "https://github.com/nathancox/silverstripe-hasoneautocompletefield",
-	"type": "silverstripe-vendormodule",
-	"keywords": [
-		"silverstripe",
-		"cms",
-		"has_one",
-		"form",
-		"formfield",
-		"relation"
-	],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Nathan Cox",
-			"email": "me@nathan.net.nz"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/nathancox/silverstripe-hasoneautocompletefield/issues"
-	},
+    "name": "nathancox/hasoneautocompletefield",
+    "description": "A CMS form field for adding has_one relationships using autocomplete",
+    "homepage": "https://github.com/nathancox/silverstripe-hasoneautocompletefield",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "cms",
+        "has_one",
+        "form",
+        "formfield",
+        "relation"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Nathan Cox",
+        "email": "me@nathan.net.nz"
+    }],
+    "support": {
+        "issues": "https://github.com/nathancox/silverstripe-hasoneautocompletefield/issues"
+    },
     "extra": {
         "expose": [
             "client/dist"
@@ -31,7 +29,7 @@
             "NathanCox\\HasOneAutocompleteField\\": "src/"
         }
     },
-	"require": {
-		"silverstripe/framework": "~4.0"
-	}
+    "require": {
+        "silverstripe/framework": "~4.0"
+    }
 }
